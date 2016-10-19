@@ -10,11 +10,11 @@ Enterprise Integration Patterns with powerful Bean Integration.
 
 # Introduction
 
-This component uses [JNATS](https://github.com/nats-io/jnats) java client library version 0.4.1, which requires a JVM 1.8.
+This component uses [JNATS](https://github.com/nats-io/jnats) java client library version 0.6.0, which requires a JVM 1.8.
 
 The camel-nats component integrates Camel with NATS messaging platform allowing messages to be sent from Camel routes to a NATS Queue or messages to be consumed from a NATS Queue or Topic by Camel routes.
 
-This camel-nats component could be used for standalone camel deployment (for example using org.apache.camel.spring.Main), for osgi camel deployment (for example using karaf) and for cloud deployment using Apcera cloud platform.
+This camel-nats component could be used for stand-alone camel deployment (for example using org.apache.camel.spring.Main), for osgi camel deployment (for example using apache karaf) and for cloud deployment using Apcera cloud platform.
 
 # Installation
 
@@ -24,12 +24,12 @@ Maven users will need to add the following dependency to their pom.xml for this 
 <dependency>
     <groupId>com.logimethods.apcera</groupId>
     <artifactId>camel-nats</artifactId>
-    <version>2.17.2</version>
+    <version>2.18-SNAPSHOT</version>
 </dependency>
 
 ```
 
-The latest release uses camel-core version 2.17.2 as dependency.
+The latest release uses camel-core version 2.18-SNAPSHOT as dependency.
 Download component and build it using mvn install command from the top component source directory containing pom.xml 
 
 # URI format
